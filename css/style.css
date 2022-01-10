@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+body nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 
+}
+
+body nav ul{
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;
+}
+
+body nav ul li {
+    margin-left: 20px;
+}
+
+.mainBody {
+    background: url("/Rectangle5.png") no-repeat right top;
+}
+
+.homeMainSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeMainSection article:nth-of-type(1){
+    width: 30%; 
+}
+
+.homeMainSection article:nth-of-type(2) img {
+    width: 100%; 
+}
+
+.homeMainSection h2 {
+    font-size: 2rem; 
+}
+
+.homeMainSection h1 {
+    font-size: 4rem; 
+    margin: 8vh 0; 
+}
+
